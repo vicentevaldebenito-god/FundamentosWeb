@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten a la siguiente línea si no caben en una sola fila */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+
+
+.image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionarla */
+    margin: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
