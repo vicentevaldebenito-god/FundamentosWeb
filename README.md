@@ -1,0 +1,1 @@
+Todas las asignaciones de skillnest

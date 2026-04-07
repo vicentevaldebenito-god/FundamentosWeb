@@ -1,0 +1,36 @@
+p {
+   text-align: left;  /* Alineado a la izquierda */
+}
+
+h2 {
+   text-align: center;  /* Alineado al centro */
+}
+
+h3 {
+   text-align: right;  /* Alineado a la derecha */
+}
+
+a {
+   text-decoration: underline;  /* Subrayado */
+   font-style: italic;  /* Cursiva */
+}
+
+p.tachado {
+   text-decoration: line-through;  /* Texto tachado */
+}
+
+span {
+   text-decoration: none;  /* Sin decoración */
+}
+
+h1 {
+   font-weight: bold;  /* Negrita */
+}
+
+h2 {
+   font-weight: 300;  /* Fuente más delgada */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
