@@ -4,15 +4,23 @@ body {
 
 /* Contenedor de filas */
 .row {
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 /* Estilos generales para columnas */
 .col {
+    display: flex;
+    flex: 1 1 0;
+    
 }
 
 /* Ajuste de tamaños específicos */
 .col-2 {
+
 }
 
 .col-3 {
+
 }
