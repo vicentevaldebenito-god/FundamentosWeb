@@ -1,0 +1,79 @@
+/* Selecciona todos los elementos HTML */
+* {
+    /* outline: 2px dashed crimson; */
+    /* Linea externa de 2px */
+    margin: 0;
+    /* Formatea espacios externos de elementos HTML */
+    padding: 0;
+    /* Formatea espacios internos de elementos HTML */
+    box-sizing: border-box;
+    /* Considera bordes dentro del tamaño de elementos HTML */
+}
+
+body {
+    padding: 40px;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+.green {
+    color: mediumseagreen;
+}
+
+#red {
+    color: tomato;
+}
+
+.quote p {
+    color: darkslategray;
+    font-style: italic;
+}
+
+.quote h4 {
+    color: chartreuse;
+    font-weight: bold;
+    /* Negrita */
+}
+
+.header>img {
+    /* Solo afecta a los elementos hijos directos (>) */
+    height: 50px;
+    /* Altura de imagen */
+}
+
+#container p {
+    /* Seleccion de parrafo dentro de Contendeor (#) */
+    font-size: 16px;
+    /* Tamaño de letra */
+    background-color: #444;
+    /* Color del fondo */
+    color: white;
+    /* Color de letra */
+}
+
+#container p.highlight {
+    font-weight: bold;
+    /* Negrita */
+    color: gold;
+}
+
+input[type="text"] { /* Seleccion de elementos a través de su propiedad [type="text"] */
+    border: 2px solid royalblue;
+    padding: 3px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: mediumvioletred;
+    border: none;
+    /* Quita los bordes por defecto */
+    padding: 5px 10px;
+    cursor: pointer;
+    /* Manito para realizar click */
+}
+
+form {
+    padding: 20px;
+}
