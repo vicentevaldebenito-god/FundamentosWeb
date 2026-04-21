@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing:border-box
+}
+
+.centrado {
+    text-align:center;
+}
+
+.encabezado {
+    padding:40px;
+}
+
+.titulo {
+    margin-bottom:20px;
+}
+
+.caja {
+    display:inline-block;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    width:300px;
+    overflow: hidden; /* Elemento interno no se desborde hacia el exterior*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.158);
+    margin:25px;
+}
+
+.encabezado_caja {
+    padding:20px;
+}
+
+.cuerpo_caja {
+    padding:20px;
+    color: black;
+}
+
+.azul {
+    background-color: rgb(74, 154, 224);
+}
+
+.rojo {
+    background-color: rgb(231, 84, 72);
+}
+
+.verde {
+    background-color:rgb(74, 183, 120)
+}
+
+.container {
+    text-align:center;
+}
+
+.amarillo {
+    background-color:rgb(248, 203, 76)
+}
+
+.morado {
+    background-color:rgb(159, 109, 196);
+}
+
+.celeste {
+    background-color:rgb(55, 151, 168);
+}
