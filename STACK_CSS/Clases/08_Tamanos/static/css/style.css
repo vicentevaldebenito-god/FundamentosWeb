@@ -1,0 +1,46 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    width:100%; /* Todo el ancho de la página */
+    background-color: gray;
+    padding:15px;
+}
+.titulo_header {
+    text-align:center;
+    color:white;
+}
+
+.container {
+    outline: solid 1px grey;
+    margin: 0 auto;
+    width: 900px;
+    padding: 20px;
+}
+
+/* Tamaños ejemplos CSS */
+.aceptar {
+    width:100px;
+    height: 50px;
+}
+
+.caja1 {
+    width: 80%; /* Porcentaje para dar tamañano */
+    height:200px;
+    background-color:yellow;
+}
+
+.parrafo1 {
+    font-size: 16px;
+}
+
+.link {
+    font-size: 200%;
+}
+
+.cursiva {
+    font-style: italic;
+}
