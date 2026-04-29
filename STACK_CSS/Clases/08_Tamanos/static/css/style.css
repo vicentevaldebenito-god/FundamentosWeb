@@ -1,17 +1,20 @@
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    outline: solid 1px rgba(255, 0, 0, 0.567);
 }
 
 .encabezado {
-    width:100%; /* Todo el ancho de la página */
+    width: 100%;
+    /* Todo el ancho de la página */
     background-color: gray;
-    padding:15px;
+    padding: 15px;
 }
+
 .titulo_header {
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
 }
 
 .container {
@@ -21,26 +24,164 @@
     padding: 20px;
 }
 
+.row {
+    padding: 30px;
+}
+
 /* Tamaños ejemplos CSS */
 .aceptar {
-    width:100px;
+    width: 100px;
     height: 50px;
 }
 
 .caja1 {
-    width: 80%; /* Porcentaje para dar tamañano */
-    height:200px;
-    background-color:yellow;
+    width: 80%;
+    /* Porcentaje para dar tamañano */
+    height: 200px;
+    background-color: yellow;
 }
 
 .parrafo1 {
-    font-size: 16px;
+    font-size: 30px;
 }
 
-.link {
-    font-size: 200%;
+.link1 {
+    font-size: 300%;
 }
 
 .cursiva {
     font-style: italic;
+    margin-top: 15px;
+    color: blue;
+}
+
+/*
+📦 Manejo del contenido con overflow: hidden, scroll, auto
+*/
+
+.caja {
+    width: 200px;
+    height: 100px;
+}
+
+.example1 {
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+}
+
+.example2 {
+    background-color: green;
+    height: 100px;
+    width: 300px;
+}
+
+.example3 {
+    background-color: blueviolet;
+    height: 100px;
+    width: 300px;
+}
+
+.hidden {
+    /* Oculta los elementos que sobresalen del contenedor */
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+/* 🎨 Fondo y colores */
+.banner {
+    background: red url("/STACK_CSS/08_Tamanos/static/css/style.css/image.png") no-repeat fixed center center;
+    height: 330px;
+    width: 100%;
+    background-size: 120%;
+}
+
+/* Bordes y estilos*/
+
+.cancelar {
+    border: 2px dotted rgb(255, 0, 0);
+    /* dotted: linea segmentada: ....... */
+    padding: 15px;
+}
+
+.articulo {
+    border: 2px solid rgb(23, 76, 223);
+    /* Solid: linea solida */
+    width: 100px;
+    height: 50px;
+
+}
+
+/* Bordes redondeados */
+
+.boton_redondeado {
+    border-radius: 15px;
+    /* redondea esquinas */
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.caja_redondeada {
+    border-radius: 50%;
+    /* 50% de radius: circulo perfecto */
+    padding: 10px 16px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cajitas {
+    width: 150px;
+    height: 40px;
+    outline: solid 1px rgba(11, 76, 181, 0.93);
+}
+
+.box1 {
+    background-color: rgb(5, 148, 148);
+    padding: 10px;
+}
+
+.box2 {
+    background-color: yellow;
+    padding-top: 0px;
+    /* Espacio interno: arriba */
+    padding-right: 5px;
+    /* Espacio interno: derecha */
+    padding-left: 5px;
+    /* Espacio interno: izquierda */
+    padding-bottom: 0px;
+    /* Espacio interno: abajo */
+}
+
+/* padding 0px 5px 0px 5px --> aplicando en todos los lados 
+padding 0px 5px --> 0px del eje (Y) y 5px del eje (X)*/
+
+
+.box3 {
+    background-color: rgba(3, 85, 0, 0.752);
+    margin: 10px;
+    /* Margen externo: separa elementos */
+}
+
+.box4 {
+    background-color: rgba(255, 89, 0, 0.793);
+    margin: 0px 20px;
+    /* eje X modificado con margin */
+    padding: 5px 0px;
+    /* eje Y modificado con padding */
+}
+
+.box5 {
+    float: left;
+    width: 50%;
 }
