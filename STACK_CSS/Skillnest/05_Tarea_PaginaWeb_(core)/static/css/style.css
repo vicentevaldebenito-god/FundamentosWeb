@@ -1,19 +1,23 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(242, 246, 248)
 }
 .Header {
 
-    background-color: rgb(0, 66, 104);
+    background-color: rgb(23, 51, 83);
     text-align: center;
     height: 150px;
     width: 100%;
     color: white;
+    display:inline-block;
+    
 }
 
 .Search {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(0, 48, 77);
+    background-color: rgb(32, 72, 117);
     height: 70px;
     width: 100%;
     padding-top: 10px;
@@ -25,12 +29,13 @@ body {
 
 }
 .Box {
-    background-color: rgb(0, 66, 104);
+    background-color: #204875;
     text-align: center;
     color: white;
     height: 145px;
     width: 90%;
     margin-left: 55px;
+    border-radius:5px;
 
 
 }
@@ -40,8 +45,9 @@ body {
     display: inline-block;
     width: 300px;
     height: 160px;
-    background-color: rgb(32, 144, 178);
-    margin: 40px;
+    background-color: rgb(0, 164, 222);
+    margin: 25px;
+    padding:10px;
     text-align: center;
     line-height: 30px;
     border-radius: 10px;
@@ -50,9 +56,11 @@ body {
 }
 
 .B_Box {
-    background-color: rgb(243, 243, 243);
-    padding: 20px;
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    margin:25px;
     height: 375px;
+    width:95%;
 }
 
 .Header h1 {
@@ -61,6 +69,12 @@ body {
 }
 
 .Content1 {
-    text-align: center;;
+    text-align: center;
     gap: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.Content1:hover {
+    color:gray;
 }

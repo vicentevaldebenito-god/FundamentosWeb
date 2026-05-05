@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(242, 246, 248)
+}
+
+/* Header Y Info */
+
+.Header {
+    background-color: rgb(23, 51, 83);
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    color: white;
+    display: inline-block;
+}
+
+.Titulo {
+    margin: 25px;
+}
+
+.Header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.Search {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(32, 72, 117);
+    height: 65px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Primera Caja Grande */
+
+.B_Box {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 25px;
+    height: 375px;
+    width: 85%;
+    display:inline-block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.264);
+    border-radius: 10px;
+}
+
+.Subtitulo {
+    padding: 35px;
+}
+
+.Subtitulo p {
+    font-size: larger;
+    padding:15px;
+}
+
+.Content1 {
+    text-decoration: none;
+    color: white;
+    padding: 45px;
+}
+
+.Content1:hover {
+    color: gray;
+}
+/* Cajas */
+
+.Tarjeta{
+    text-align: center;
+    display: inline-block;
+    width: 265px;
+    height: 155px;
+    background-color: rgb(0, 164, 222);
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-top:10px;
+    color: white;
+    font-weight: bold;
+    overflow:auto;
+}
+
+.Content3{
+    font-weight:150;
+    margin:10px;
+    padding-top: 10px;
+}
+
+.Box {
+    background-color: #204875;
+    text-align: center;
+    color: white;
+    height: 145px;
+    margin:5px;
+    width: 100%;
+    border-radius: 5px;
+
+}
