@@ -1,109 +1,92 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-/* BODY */
-
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(242, 246, 248)
+    background-color: rgb(224, 224, 224)
 }
 
-/* Header Y Info */
+/* Header */
 
 .Header {
     background-color: rgb(23, 51, 83);
-    text-align: center;
-    height: 150px;
     width: 100%;
-    color: white;
-    display: inline-block;
-}
-
-.Titulo {
-    margin: 25px;
-}
-
-.Header h1 {
-    font-size: 3rem;
-    margin: 0;
+    height: 145px;
+    padding: 25px;
 }
 
 .Search {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(32, 72, 117);
-    height: 65px;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Primera Caja Grande */
-
-.B_Box {
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
-    margin: 25px;
-    height: 375px;
-    width: 85%;
-    display:inline-block;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.264);
-    border-radius: 10px;
-}
-
-.Subtitulo {
-    padding: 35px;
-}
-
-.Subtitulo p {
-    font-size: larger;
-    padding:15px;
+    height: 60px;
+    padding: 20px;
+    gap: 50px;
 }
 
 .Content1 {
+    gap: 50px;
+    display: inline-block;
+    padding: 0px 27px 0px 27px;
     text-decoration: none;
-    color: white;
-    padding: 45px;
 }
 
 .Content1:hover {
-    color: gray;
+    color: rgb(67, 112, 163);
+    text-decoration: underline;
 }
+
+.Titulo p {
+    padding-top: 25px;
+}
+
 /* Cajas */
 
-.Tarjeta{
-    text-align: center;
-    display: inline-block;
-    width: 265px;
-    height: 155px;
-    background-color: rgb(0, 164, 222);
-    margin: 25px;
-    padding: 10px;
+.Big_box {
+    background-color: white;
+    width: 90%;
+    justify-self: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.281);
+    margin-top: 50px;
     border-radius: 10px;
-    padding-top:10px;
-    color: white;
-    font-weight: bold;
-    overflow:auto;
-}
-
-.Content3{
-    font-weight:150;
-    margin:10px;
-    padding-top: 10px;
+    height: 370px;
 }
 
 .Box {
-    background-color: #204875;
-    text-align: center;
-    color: white;
-    height: 145px;
-    margin:5px;
-    width: 100%;
+    background-color: rgb(32, 72, 117);
     border-radius: 5px;
+    width: 95%;
+    display: inline-block;
+    margin-top: 25px;
+    height: 150px;
+}
 
+.Subtitulo {
+    padding: 25px;
+    padding-top: 40px;
+}
+
+.Subtitulo p {
+    padding-top: 20px;
+}
+
+/* Informacion */
+
+.Tarjeta {
+    width: 350px;
+    height: 140px;
+    background-color: rgb(0, 164, 222);
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.Content2 {
+    padding-top: 25px;
 }
