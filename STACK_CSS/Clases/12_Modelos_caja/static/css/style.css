@@ -1,0 +1,82 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#e0e0e0;
+}
+
+.Header {
+    color:white;
+    background-color:rgb(33, 136, 22);
+    width:70%;
+    height: 75px;
+    text-align:center;
+    padding:17px;
+    justify-self: center;
+    margin:20px;
+}
+
+.Botones {
+    background-color:rgb(44, 93, 220);
+    width: 15%;
+    height:450px;
+    display:inline-block;
+    justify-items: center;
+    padding:15px;
+    margin-left:205px;
+}
+
+.Boton1 {
+    background-color:rgb(254, 238, 48);
+    border-radius:25px;
+    height: 40px;
+    width:150px;
+    border:none;
+    display:block;
+    margin:15px;
+
+}
+
+.Boton1:hover{
+    background-color:rgb(165, 154, 33);
+}
+
+.Informacion{
+    background-color:rgb(227, 30, 17);
+    display:inline-block;
+    width:53%;
+    height: 250px;
+    margin-left:25px;
+
+}
+
+.Caja1 {
+    background-color:rgb(254, 243, 4);
+    width:30%;
+    height: 30%;
+    padding-bottom: 25%;
+    justify-self:center;
+    display:inline-block;
+
+}
+
+.Caja2 {
+    background-color:rgb(142, 36, 135);
+}
+
+.Boton2{
+    color:rgb(142, 36, 135);
+    border:none;
+    border-radius: 25px;
+    height: 40px;
+    width:150px;
+    margin:20px;
+
+}
+
+.Boton2:hover {
+    background-color:rgb(147, 144, 147);
+}

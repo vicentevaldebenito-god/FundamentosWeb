@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    /* Activa flexbox en este contenedor */
+    background-color: #f0f0f0;
+    padding: 20px;
+    justify-content: center; /* alinear horizontalmente */
+    flex-wrap: wrap; /* ordena los elementos que no caben en pantalla */
+}
+
+.item {
+    background-color: #00ade5;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+.row{
+    flex-direction:row;/* Dirección en filas */
+}
+
+.column{
+    flex-direction:column; /* Dirrecion en columnas */
+}
+
+.start {
+    justify-content: flex-start; /* Alinea a la izquierda */
+}
+
+.center {
+    justify-content: center; /* centrar elementos */
+}
+
+.space-between {
+    justify-content: space-between /* Distribuicion perfecta */
+}
