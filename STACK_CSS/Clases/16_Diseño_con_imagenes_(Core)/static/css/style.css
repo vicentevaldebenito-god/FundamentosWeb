@@ -1,0 +1,29 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.Header {
+    padding:20px;
+    text-align:center;
+}
+
+body{
+    background-color: rgb(244,244,244)
+}
+img{
+    height: 200px;
+    width:200px;
+    border-radius: 15px;
+    background-color:white;
+    box-shadow: 4px 4px 4px rgba(66, 66, 66, 0.233);
+}
+
+.Fila{
+    justify-content:center;
+    display:flex;
+    flex-direction:row;
+    gap:15px;
+    padding:5px;
+}
