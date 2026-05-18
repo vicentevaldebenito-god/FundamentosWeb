@@ -2,6 +2,7 @@
     padding:0px;
     margin:0px;
     box-sizing: border-box;
+    font-family:arial;
 }
 
 .Header {
@@ -26,4 +27,9 @@ img{
     flex-direction:row;
     gap:15px;
     padding:5px;
+}
+
+.Footer{
+    text-align:center;
+    padding:10px;
 }
