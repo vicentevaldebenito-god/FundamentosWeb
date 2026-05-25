@@ -1,0 +1,30 @@
+/* Estilos generales */
+body {
+    background-color:white;
+}
+
+/* Contenedor de filas */
+.row {
+    display:flex;
+    gap:10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Estilos generales para columnas */
+.col {
+    background-color:rgb(135, 206, 235);
+    border-radius:10px;
+    padding:20px;
+    flex: 1;
+    margin-bottom:5px;
+}
+
+/* Ajuste de tamaños específicos */
+.col-2 {
+    flex:2;
+}
+
+.col-3 {
+    flex:3;
+}
