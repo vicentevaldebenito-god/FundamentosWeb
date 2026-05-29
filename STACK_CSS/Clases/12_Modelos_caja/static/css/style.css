@@ -1,82 +1,109 @@
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color:#e0e0e0;
+    background-color: #e0e0e0;
+    padding: 40px 5%;
+    font-family: sans-serif;
 }
 
+/* ENCABEZADO */
 .Header {
-    color:white;
-    background-color:rgb(33, 136, 22);
-    width:70%;
-    height: 75px;
-    text-align:center;
-    padding:17px;
-    justify-self: center;
-    margin:20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Header h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.Main {
+    width: 100%;
 }
 
 .Botones {
-    background-color:rgb(44, 93, 220);
-    width: 15%;
-    height:450px;
-    display:inline-block;
-    justify-items: center;
-    padding:15px;
-    margin-left:205px;
+    display: inline-block;
+    width: 26%;
+    height: 500px;
+    background-color: blue;
+    padding: 40px 0;
+    font-size: 16px;
+    text-align: center;
 }
 
 .Boton1 {
-    background-color:rgb(254, 238, 48);
-    border-radius:25px;
-    height: 40px;
-    width:150px;
-    border:none;
-    display:block;
-    margin:15px;
-
+    display: inline-block;
+    background-color: yellow;
+    color: rgba(0, 0, 0, 0.706);
+    padding: 12px 0;
+    width: 70%;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 25px;
 }
 
-.Boton1:hover{
-    background-color:rgb(165, 154, 33);
+.Informacion {
+    display: inline-block;
+    width: 69%;
+    margin-left: 4%;
+    font-size: 16px;
+    vertical-align: top;
 }
 
-.Informacion{
-    background-color:rgb(227, 30, 17);
-    display:inline-block;
-    width:53%;
-    height: 250px;
-    margin-left:25px;
-
+.Contenido {
+    background-color: red;
+    width: 100%;
+    padding: 20px;
 }
 
 .Caja1 {
-    background-color:rgb(254, 243, 4);
-    width:30%;
-    height: 30%;
-    padding-bottom: 25%;
-    justify-self:center;
-    display:inline-block;
-
+    vertical-align: top;
+    display: inline-block;
+    background-color: yellow;
+    width: 30%;
+    height: 200px;
+    margin: 0 1%;
 }
 
 .Caja2 {
-    background-color:rgb(142, 36, 135);
+    background-color: purple;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    margin-left: 1%;
+    font-size: 16px;
 }
 
-.Boton2{
-    color:rgb(142, 36, 135);
-    border:none;
+.Boton2 {
+    display: inline-block;
+    background-color: #e0e0e0;
+    border: none;
+    color: purple;
+    padding: 12px 40px;
+    font-weight: bold;
     border-radius: 25px;
-    height: 40px;
-    width:150px;
-    margin:20px;
-
 }
 
-.Boton2:hover {
-    background-color:rgb(147, 144, 147);
+.lineas {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.linea {
+    background-color: #bcb9b9;
+    height: 8px;
+    margin-bottom: 16px;
+    width: 95%;
+}
+
+.corta {
+    width: 75%;
 }
