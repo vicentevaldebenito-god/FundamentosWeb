@@ -97,7 +97,7 @@ for(let puntos = 1; puntos <= 5 ; puntos++){
 // No tienes notificaciones pendientes.
 
 function Notificaciones(){
-    for (let notis = 5; notis <= 0; notis--){
+    for (let notis = 5; notis >= 0; notis--){
         alert(`Tienes ${notis} notificaciones nueva`)
     if(notis <= 0){
         alert(`No tienes notificaciones pendientes`)
