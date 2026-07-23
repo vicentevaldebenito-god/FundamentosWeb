@@ -22,6 +22,36 @@ let hamburguesaEspecial = {
 console.log(hamburguesaEspecial.pan)
 hamburguesaEspecial.mostrarIngredientes();
 
+//Objeto con método automovil
+
+let auto = {
+    marca:"Toyota",
+    modelo:"Corolla",
+    año:2023,
+    encender:function(){
+        console.log(
+            "Encendiendo",
+            this.marca,
+            this.modelo
+        );
+    }
+};
+
+auto.encender()
+//Objeto con método casa
+
+let casa = {
+    direccion:"Av. Siempre Viva 742",
+    habitaciones:4,
+    baños:2,
+    mostrarInformacion:function(){
+        console.log(
+            this.direccion
+        );
+    }
+};
+
+casa.mostrarInformacion()
 // # 💻 Ejercicios
 
 // ## Ejercicio 1
