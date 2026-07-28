@@ -10,22 +10,22 @@
 // Luego mostrar:
 // Descuento aplicado
 // Total a pagar
-function ejercicio1(){
+function ejercicio1() {
     let compra = parseInt(prompt("Ingrese el monto de la compra"))
     let cliente = prompt("Ingrese su nombre:")
-    if(compra >= 50000){
+    if (compra >= 50000) {
         alert(`El cliente ${cliente} esta comprando un objeto con valor de ${compra}
             \nPor ser una compra mayor a 50000 , se le da un descuento del 20%.
             \nSu precio total seria: ${compra - (compra * 0.20)}`)
-    }else if(compra >= 30000){
+    } else if (compra >= 30000) {
         alert(`El cliente ${cliente} esta comprando un objeto con valor de ${compra}
             \nPor ser una compra mayor a 30000 , se le da un descuento del 10%.
             \nSu precio total seria: ${compra - (compra * 0.10)}`)
-    }else if(compra <=30000 && compra > 0){
+    } else if (compra <= 30000 && compra > 0) {
         alert(`El cliente ${cliente} esta comprando un objeto con valor de ${compra}
             \nPor ser una compra menor a 30000.
             \nSu precio total seria: ${compra}`)
-    }else{
+    } else {
         alert(`Ingrese valores válidos`)
     }
 }
@@ -43,16 +43,16 @@ function ejercicio1(){
 // “Acceso permitido”
 // o “Acceso denegado”
 
-function ejercicio2(){
+function ejercicio2() {
     let edad = parseInt(prompt("Ingrese su edad:"))
     let acompañado = prompt("Viene acompañado? si/no")
-    if(edad <= 17 && acompañado === "no"){
+    if (edad <= 17 && acompañado === "no") {
         alert(`Acceso denegado`)
-    }else if(edad <= 17 && acompañado === "si"){
+    } else if (edad <= 17 && acompañado === "si") {
         alert(`Acceso permitido`)
-    }else if(edad >=18){
+    } else if (edad >= 18) {
         alert(`Acceso permitido`)
-    }else if(edad < 0 && acompañado !== "si" && acompañado !== "no"){
+    } else if (edad < 0 && acompañado !== "si" && acompañado !== "no") {
         alert(`Ingrese una edad valida`)
     }
 }
@@ -73,15 +73,15 @@ function mostrarTemperatura() {
         mensaje = "Hace frio"
     } else if (temperatura >= 10 && temperatura <= 24) {
         mensaje = "temperatura agradable";
-    } else{
+    } else {
         mensaje = "Hace calor";
     }
-    if (temperatura > 35){
+    if (temperatura > 35) {
         mensaje += " Ingresar valores validos";
     }
-    if(temperatura > 35 && temperatura < 50){
+    if (temperatura > 35 && temperatura < 50) {
         mensaje += "\n temperatura extrema";
-    } 
+    }
     alert(mensaje)
 }
 
@@ -98,6 +98,21 @@ function mostrarTemperatura() {
 // Si usuario es correcto pero contraseña incorrecta → “Contraseña incorrecta”
 // Si usuario no existe → “Usuario no encontrado”
 
+function ejercicio4() {
+    let usuario = prompt("Ingrese su nombre de usuario:");
+    let contrasena = prompt("Ingrese su contraseña:");
+
+    if (usuario === "admin") {
+        if (contrasena === "12345") {
+            alert("Bienvenido administrador");
+        } else {
+            alert("Contraseña incorrecta");
+        }
+    } else {
+        alert("Usuario no encontrado");
+    }
+}
+
 // ✅ Ejercicio 5: Sistema de aprobación
 // 📝 Enunciado
 // Solicitar:
@@ -113,3 +128,24 @@ function mostrarTemperatura() {
 // Además:
 // Si alguna nota es menor a 2.0 mostrar:
 //  “Debe asistir a reforzamiento”.
+
+
+function ejercicio5() {
+    let nombre = prompt("Ingrese el nombre del estudiante:");
+    let nota1 = parseInt(prompt("Ingrese la Nota 1:"));
+    let nota2 = parseInt(prompt("Ingrese la Nota 2:"));
+    let nota3 = parseInt(prompt("Ingrese la Nota 3:"));
+
+
+    let promedio = (nota1 + nota2 + nota3) / 3;
+
+    if (promedio >= 6.0) {
+        alert(`${nombre}: Aprobado con excelencia (Promedio: ${promedio})`);
+    } else if (promedio >= 4.0) {
+        alert(`${nombre}: Aprobado (Promedio: ${promedio})`);
+    } else {
+        alert(`${nombre}: Reprobado (Promedio: ${promedio})`);
+    } if (nota1 < 2.0 || nota2 < 2.0 || nota3 < 2.0) {
+        alert("Debe asistir a reforzamiento");
+    }
+}
