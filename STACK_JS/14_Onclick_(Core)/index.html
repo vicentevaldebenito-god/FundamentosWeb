@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vicente Valdebenito">
+    <title>Core Onclick</title>
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+
+<body>
+    <nav class="Navbar">
+        <div class="Titulo">
+            <h1>Social Blog</h1>
+        </div>
+        <div class="Buscador">
+            <input type="text" class="Barra_Buscador" placeholder="Buscar publicaciones...">
+        </div>
+        <div class="Sesion">
+            <button class="Boton_Sesion" id="Cerrar_Iniciar">Cerrar Sesión</button>
+        </div>
+    </nav>
+    <main class="Main">
+        <section class="Publicaciones">
+            <div class="Publicacion">
+                <h1 class="Titulo_Publicacion">Fundamentos de JavaScript</h1>
+                <p class="Info_Publicacion"><b>Publicado por:</b> Carlos Pérez</p>
+                <p class="Info_Publicacion"><b>Fecha:</b> 02/03/2025</p>
+                <p class="Desc_Publicacion">Javascript es un lenguaje de programación que se utiliza en el desarrollo
+                    web.
+                    Aprende los conceptos básicos para comenzar a programar.</p>
+                <button  id="Likes1" class="Likes_Publicacion">12 Me gusta</button>
+            </div>
+            <div class="Publicacion">
+                <h1 class="Titulo_Publicacion">Aprende a diseñar con CSS</h1>
+                <p class="Info_Publicacion"><b>Publicado por:</b> Ana Gómez</p>
+                <p class="Info_Publicacion"><b>Fecha:</b> 01/03/2025</p>
+                <p class="Desc_Publicacion">El diseño web es una parte fundamental en el desarrollo de aplicaciones web.
+                    Conoce las propiedades de CSS para crear interfaces atractivas</p>
+                <button  id="Likes2" class="Likes_Publicacion">30 Me gusta</button>
+            </div>
+        </section>
+        <section class="Saludo">
+            <div class="Caja_Saludo">
+                <h1>Bienvenido!</h1>
+                <p>Explora nueva publicaciones y conecta con otros usuarios.</p>
+                <button id="Perfil" class="Boton_Perfil">Ver Perfil</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
