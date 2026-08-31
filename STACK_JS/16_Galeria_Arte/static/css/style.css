@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(245, 241, 237);
+}
+
+.Navbar{
+    background-color:rgb(74, 63, 53);
+    display:flex;
+    width:100%;
+    height:70px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right:80px;
+}
+
+.Titulo{
+    color:white;
+}
+
+.Buscador{
+    display:flex;
+    text-align: center;
+    
+}
+.Barra_Buscador{
+    width:400px;
+    height:35px;
+    border:none;
+    border-radius:50px;
+    padding-left:20px;
+    
+}
+
+.Sesion{
+    display:flex;
+    text-align:center;
+}
+
+.Boton_Sesion{
+    background-color:rgb(217, 199, 184);
+    border:none;
+    color:black;
+    border-radius:50px;
+    width:120px;
+    height:35px;
+    cursor:pointer;
+}
+
+.Main{
+    display:flex;
+    justify-content: center;
+}
+.Marco{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:600px;
+    height:450px;
+    margin-top:40px;
+    background-color:white;
+    border-radius:15px;
+    box-shadow: 1px 2px 4px rgba(66, 66, 66, 0.534);
+    transition: transform ease 0.3s;
+}
+
+.Marco:hover{
+    transform: scale(1.05);
+}
+.Marco img{
+    width:500px;
+    height:350px;
+}
+
+.Marco h1{
+    font-size:16px;
+    margin-top:20px;
+}
