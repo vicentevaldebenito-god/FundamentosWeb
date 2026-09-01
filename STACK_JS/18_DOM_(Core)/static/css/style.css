@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+.Navbar{
+    background-color:rgb(63, 63, 63);
+    display:flex;
+    width:100%;
+    height:70px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right:80px;
+}
+
+.Titulo{
+    color:white;
+}
+
+.Buscador{
+    display:flex;
+    text-align: center;
+    
+}
+.Barra_Buscador{
+    width:400px;
+    height:35px;
+    border:none;
+    border-radius:50px;
+    padding-left:20px;
+    
+}
+
+.Sesion{
+    display:flex;
+    text-align:center;
+}
+
+.Boton_Sesion{
+    background-color:rgb(108, 92, 231);
+    border:none;
+    color:white;
+    border-radius:50px;
+    width:120px;
+    height:35px;
+    cursor:pointer;
+}
+
+.Boton_Sesion:hover{
+    background-color:rgb(98, 83, 211)
+}
+
+.Main{
+    display:flex;
+}
+
+.Publicaciones{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.Publicacion{
+    background-color:rgb(244, 244, 244);
+    border:2px black solid;
+    border-radius:10px;
+    display:flex;
+    width:850px;
+    height:120px;
+    padding-top:25px;
+    padding-left:20px;
+    flex-direction: column;
+    text-align: start;
+    gap: 15px;
+    position:relative;
+}
+
+.Likes{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    left:700px;
+    top:20px;
+    gap:10px;
+}
+
+.Likes_Counter{
+    display:flex;
+}
+.Like_Publicacion{
+    width:70px;
+    height:30px;
+    background-color:rgb(255, 208, 107);
+    border:none;
+    border-radius:7px;
+    cursor:pointer;
+}
+
+.Like_Publicacion:hover{
+    background-color: rgb(201, 163, 82);
+}
+
+.Perfil{
+    display:flex;
+    align-items:center;
+    align-self:center;
+    background-color:white;
+    border-radius:10px;
+    width: 250px;
+    margin:25px;
+    margin-right:80px;
+    flex-direction: column;
+    border:2px black solid;
+    height:300px;
+    text-align: center;
+    padding:25px;
+    gap:25px;
+    margin-left:80px;
+}
+
+.Caja_Perfil{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+
+.Publicaciones_Titulo{
+    display:flex;
+    padding-top:30px;
+}
+.Caja_Perfil img{
+    width:155px;
+    height:155px;
+    border-radius:50%;
+}
